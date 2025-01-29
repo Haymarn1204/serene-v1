@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f0e2c5;
+}
+.bg-primary {
+  background-color: #f0e2c5;
+}
+.bg-secondary {
+  background-color: #49281a;
+}
+.text-primary {
+  color: #f0e2c5;
+}
+.text-secondary {
+  color: #49281a;
+}
+#explore_menu {
+  margin-top: 0px;
+  margin-bottom: 6px;
+}
+.card {
+  border: 1px solid black;
+  width: 250px;
+  padding: 10px;
+  margin: 50px auto;
+  text-align: center;
+  background-color: blanchedalmond;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 6px;
+  margin: 2px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: px;
+}
+.delicious-margin {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.card-img {
+  max-width: 100%;
+}
+.card-title {
+  margin: 10px;
+}
+.card-text {
+  line-height: 1.5;
+}
+.price {
+  font-style: italic;
+  font-weight: bold;
+}
+.our-menu {
+  margin-bottom: 30px;
+}
+.btn {
+  background-color: #49281a;
+  display: block;
+  padding: 10px;
+  color: #f0e2c5;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.header-font {
+  font-family: "Playfair Display SC", serif;
+}
+.body-font {
+  font-family: "Lato", serif;
+}
+header {
+  text-align: center;
+  padding: 50px 0;
+  background-image: url("image/gb4.png"), url(image/gb3.png);
+  background-position: left 100px center, right 100px center;
+  background-size: 230px auto, 180px auto;
+  background-repeat: no-repeat, no-repeat;
+}
+header h1 {
+  font-size: 3rem;
+}
+header p {
+  font-size: 1.2rem;
+  margin: 10px 0 20px;
+}
+header a {
+  padding: 10px 30px;
+  border-radius: 6px;
+  color: #f0e2c5;
+  text-decoration: none;
+}
+nav {
+  background-color: rgba(80, 40, 26, 0.9);
+  padding: 20px 0;
+  text-align: center;
+  font-family: lato, sans-serif;
+  position: sticky;
+  top: 0px;
+}
+nav a {
+  color: #f0e2c5;
+  text-decoration: none;
+  margin: 20px;
+  padding: 0 10px;
+}
+nav a:hover {
+  border-bottom: 2px solid #f0e2c5;
+}
+#menu-section,
+#about_us,
+#contact {
+  padding: 10px;
+}
+#menu-section h2,
+#about_us h2,
+#contact h2 {
+  font-family: "Playfair Display SC", serif;
+  color: #49281a;
+  font-size: 2rem;
+}
+.menu {
+  border: 2px solid #000;
+}
+#about_us p,
+#contact p {
+  font-family: lato, sans-serif;
+  padding: 10px 0;
+  text-align: justify;
+  line-height: 1.5;
+}
+#contact form {
+  font-family: lato, sans-serif;
+  width: 70%;
+}
+form div {
+  margin-bottom: 5px;
+  padding: 10px 0;
+}
+.form-label {
+  width: 30%;
+  display: inline-block;
+}
+.form-control {
+  width: 60%;
+  border: none;
+  outline: none;
+  background-color: #f0e2c5;
+  border-bottom: 1px dotted #49281a;
+}
+.mes {
+  background-color: #49281a;
+  color: #f0e2c5;
+  width: 200px;
+  padding: 10px 0;
+  border: none;
+  border-radius: 8px;
+}
+footer {
+  text-align: center;
+  padding: 50px 0;
+  font-family: lato, sans-serif;
+}
+.to-top {
+  background-color: #49281a;
+  color: #f0e2c5;
+  font-size: 20px;
+  padding: 10px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  border-radius: 50%;
+}
