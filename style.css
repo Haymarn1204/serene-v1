@@ -136,6 +136,9 @@ nav a:hover {
   text-align: justify;
   line-height: 1.5;
 }
+#coffee {
+  background-image: url(image/bg1.jpg);
+}
 #contact form {
   font-family: lato, sans-serif;
   width: 70%;
@@ -163,6 +166,7 @@ form div {
   border: none;
   border-radius: 8px;
 }
+
 footer {
   text-align: center;
   padding: 50px 0;
